@@ -1,0 +1,65 @@
+/* 
+Ruth Djusthine E. Tenifrancia
+UV-3L
+Exercise 2: HTML and CSS
+Create a portfolio using HTML and CSS
+*/
+
+@import url('https://fonts.cdnfonts.com/css/matrix');
+
+body{
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#logo {
+    width:300px;
+    height:300px;
+    align-text: center;
+}
+
+#featuredPhoto{
+    width:1850px;
+}
+
+.flex-container {
+    color: white;
+    display: flex;
+}
+
+.flex-item {
+    margin-left: 40px;
+    margin: 5;
+    color: white;
+}
+
+h1 {
+    font-family: 'Matrix', sans-serif;  
+    color: #03A062;
+    text-align:center;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Matrix', sans-serif;  
+    color: #03A062;
+    font-size: 40px;
+}
+
+li{
+    font-family: 'Matrix', sans-serif;  
+    color: #03A062;
+    font-size: px;                                          
+}
+
+p{
+    font-family: 'Matrix', sans-serif;  
+    color: #03A062;
+    font-size: px;                                          
+}

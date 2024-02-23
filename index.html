@@ -1,10 +1,64 @@
+<!-- Ruth Djusthine E. Tenifrancia UV-3L -->
+<!-- Exercise 2: HTML and CSS -->
+<!-- Create a portfolio using HTML and CSS -->
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title> My Webpage </title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+    <head>
+    <title>Sample Web Page</title>
+</head>
+
     </head>
 
     <body>
-        <p style="color: red">Hello World!</p>
+        <!--Logo and Navigation Bar -->
+        <ul id="navbar">
+         <img id="logo" src="https://www.pngarts.com/files/9/Matrix-Logo-PNG-High-Quality-Image.png" alt="Matrix logo">
+        </ul>
+
+        <!-- Featured Photo -->
+        <img id="featuredPhoto" src="https://images.wallpapersden.com/image/download/the-matrix-4k_a21sa22UmZqaraWkpJRnbW1lrWZtZWU.jpg" alt="Matrix">
+    
+        <!-- Previous Projects -->
+        <h1>Previous Projects</h1>
+         
+        <div class="flex-container">
+            <div class="flex-item" style="flex: 3;">
+                <h2>C++</h2>
+                <li>Bus Ticketing System</li>
+            </div>
+            <div class="flex-item" style="flex: 3;">
+                <h2>Python</h2>
+                <li>Farm2Market</li>
+            </div>
+            <div class="flex-item" style="flex: 3;">
+                <h2>Java</h2>
+                <li>Beat Bits (Rhythm Game)</li>
+            </div>
+            <div class="flex-item" style="flex: 3;">
+                <h2>Visual Basic .NET</h2>
+                <li>Bus Ticketing System</li>
+                <li>Diet Problem Solver</li>
+            </div>
+        </div>
+    
+        <!-- Skills and Autobiography -->
+        <div class="flex-container">
+            <div class="flex-item" style="flex: 4;">
+                <h1>Skills</h1>
+                <li>Programming</li>
+                <li>Socializing</li>
+                <li>Dancing</li>
+                <li>Photography</li>
+                <li>Video Editing</li>
+            </div>
+            <div class="flex-item" style="flex: 4;">
+                <h1>Autobiography</h1>
+                <p>My name is Ruth Djusthine E. Tenifrancia from the wonderful city of Makati! Oops, I mean Taguig now (Lani claimed us). I am 19 years old, sophomore and currently taking BS in Computer Science. My hobbies are watching films, listening to music, and programming!</p>
+            </div>
+        </div>
+    
     </body>
 </html>

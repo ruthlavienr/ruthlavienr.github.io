@@ -1,3 +1,6 @@
 Alan,Turing,aturing@w3c.com,58,bturingf824dc12
 Tim,Berners-Lee,tim@w3c.com,25,bberners-leec900cc88
 Ted,Nelson,ted.n@w3c.com,43,bnelson2095ab91
+Alan,Turing,aturing@w3c.com,58,bturing68260bc4
+Tim,Berners-Lee,tim@w3c.com,25,bberners-leeda45b125
+Ted,Nelson,ted.n@w3c.com,43,bnelson8203b895

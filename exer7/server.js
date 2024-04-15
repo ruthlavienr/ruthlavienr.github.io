@@ -1,3 +1,9 @@
+/*Ruth Djusthine E. Tenifrancia
+UV-3L
+
+Javascript file for setting up the server
+*/
+
 const express = require('express');
 const app = express();
 

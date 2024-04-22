@@ -1,69 +1,71 @@
+/* for the whole html */
 body {
-    margin: 0px;
-    background-color: #1e1b31dc;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1a1c26;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 8%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  }
-  
-  li.webTitle {
-    flex: 2;
-    display: flex;
-    color: #d1b0d3;
-    text-align: center;
-    font-weight: bold;
-    font-size: larger;
-    align-items: center;
-    margin-left: 20px;
+  margin: 0px;
+  background-color: #1e1b31dc;
 }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: right;
-    padding: 19px 18px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .cards-container {
-    padding-top: 80px; /* Adjust this value to match the height of the navbar */
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    border-radius: 4px;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; 
-    margin-bottom: 40px; 
-    margin-left: 40px;
-  }
-  
-  .card button {
-    background-color: #111;
-    color: #c8a8b2;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  }
-  
+/* Navigation bar list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1c26;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* Title of the website */
+li.webTitle {
+  flex: 2;
+  display: flex;
+  color: #d1b0d3;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  align-items: center;
+  margin-left: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 19px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.cards-container {
+  padding-top: 80px; /* Adjust this value to match the height of the navbar */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 4px;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  margin-bottom: 40px; 
+  margin-left: 40px;
+}
+
+.card button {
+  background-color: #111;
+  color: #c8a8b2;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}

@@ -1,8 +1,14 @@
+/*
+Ruth Djusthine E. Tenifrancia
+UV-3L
+*/
+
 import React from "react";
 import NavBarList from "./components/NavBarList.js";
 import CardsList from "./components/CardsList.js";
 import './App.css';
 
+//list for elements in the menu
 const menus = [
   { name: "Appliances", url: "#", id: 1 },
   { name: "Groceries", url: "#", id: 2 },
@@ -10,6 +16,7 @@ const menus = [
   { name: "Clothing", url: "#", id: 4 },
 ];
 
+//list for cards
 const cards = [
   { name: "Cellphone", url: "https://img.lazcdn.com/g/p/171982adf773d0ba13a30dc9af8c48be.jpg_720x720q80.jpg", btnName: "Add to cart", id: 1 },
   { name: "Wallet", url: "https://costal.ph/cdn/shop/files/classic-men_s-wallet_grande.jpg?v=1697596039", btnName: "Add to cart", id: 2 },

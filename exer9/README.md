@@ -1,3 +1,3 @@
 * Ruth Djusthine E. Tenifrancia
 * UV-3L
-* Creating a components for a new e-commerce website for Lazado, utilizing MERN stack and implementing reusable components. 
+* Using the past e-commerce website named "Lazado" implement state management.
